@@ -2,10 +2,6 @@
 
 Enable call of callback function to empty arrays
 
-
-#Simple example
-
-
 # Simple example:
 
     <script type="txt/javascript src="/path/to/libs/array.onempty.js" ></script>
