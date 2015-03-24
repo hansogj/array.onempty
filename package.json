@@ -1,6 +1,6 @@
 {
   "name": "array.onempty",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Polyfill to enable execution of callback function if the array is empty",
   "main": "./array.onempty.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-      "url": "ssh:git@github.com:hansogj/array.onempty.git"
+    "url": "ssh:git@github.com:hansogj/array.onempty.git"
   },
   "publishConfig": {
-      "registry": "https://www.npmjs.com/"
+    "registry": "https://www.npmjs.com/"
   },
   "keywords": [
     "empty",
