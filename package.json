@@ -1,0 +1,34 @@
+{
+  "name": "array.onempty",
+  "version": "0.1.0",
+  "description": "Polyfill to enable execution of callback function if the array is empty",
+  "main": "./array.onempty.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+      "url": "ssh:git@github.com:hansogj/array.onempty.git"
+  },
+  "publishConfig": {
+      "registry": "https://www.npmjs.com/"
+  },
+  "keywords": [
+    "empty",
+    "array",
+    "functional",
+    "programming",
+    "callback"
+  ],
+  "author": "hansogj",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-browserify": "^4.0.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sinon": "^1.0.4"
+  }
+}
