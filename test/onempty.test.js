@@ -16,5 +16,10 @@ describe('Array.onEmpty test',function () {
         expect([1].onEmpty(function () {}).length).toBe(1);
     });
 
+  it('should be able to manipulate the array onEmptu was ivoked on', function () {
+    expect([].onEmpty(function (empty) {empty.push(1);}).length).toBe(1);
+    expect([].onEmpty(function (empty) {empty.push(1);})).toEqual([1]);
+  });
+
 
 });
