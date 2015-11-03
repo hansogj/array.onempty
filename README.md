@@ -18,6 +18,11 @@ and then
     });
 
 
+    [].onEmpty(function(empty) {
+      empty.push(1) //returning an array : [1]
+     }).onEmpty(function() {
+         //now this won't be invoked
+     });
 
 ## Build code
     npm install
