@@ -1,6 +1,6 @@
 {
   "name": "array.onempty",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Polyfill to enable execution of callback function if the array is empty",
   "main": "./array.onempty.js",
   "files": [
