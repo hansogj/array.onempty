@@ -1,3 +1,3 @@
 interface Array<T> {
-    onEmpty: (T: any): any[];
+    onEmpty: (T: any) => Array<T>;
 }
