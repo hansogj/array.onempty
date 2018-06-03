@@ -12,15 +12,14 @@ Enable call of callback function to empty arrays
 
 and then
 
-    [1,2,3,4,5].map(function(item) {return item > 10 }) //this should return an empty list
-    .onEmpty(function() {
-       console.log('Ey! This is an empty list');
-    });
+    [1,2,3,4,5]
+    .filter((item) =>  item > 10 ) //this should return an empty list
+    .onEmpty(() => console.log('Ey! This is an empty list'));
 
 
-    [].onEmpty(function(empty) {
-      empty.push(1) //returning an array : [1]
-     }).onEmpty(function() {
+    []
+    .onEmpty((empty) => empty.push(1)) //returning an array : [1]
+    .onEmpty(() => {
          //now this won't be invoked
      });
 
